@@ -1,0 +1,10 @@
+<link rel="icon" href="/style/images/logotransparent1024.png" sizes="1024x1024" />
+<link rel="icon" href="/style/images/logotransparent512.png" sizes="512x512" />
+<link rel="icon" href="/style/images/logotransparent144.png" sizes="144x144" />
+<link rel="icon" href="/style/images/logotransparent128.png" sizes="128x128" />
+<link rel="icon" href="/style/images/logotransparent120.png" sizes="120x120" />
+<link rel="icon" href="/style/images/logotransparent96.png" sizes="96x96" />
+<link rel="icon" href="/style/images/logotransparent48.png" sizes="48x48" />
+<link rel="icon" href="/style/images/logotransparent32.png" sizes="32x32" />
+<link rel="icon" href="/style/images/logotransparent16.png" sizes="16x16" />
+<link rel="icon" href="/favicon.ico" sizes="144x144" />

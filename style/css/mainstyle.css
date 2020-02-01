@@ -1,0 +1,706 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+a:link {
+    text-decoration: none;
+    color: #ee7979;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #e2e2e2;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #ee7979;
+}
+
+.content {
+    display: table-row;
+    height: 100%;
+}
+.wrapper {
+    width: 100%;
+    display: table;
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    background: #fff;
+    font: 20px Cambria;
+    margin-top: 140px;
+}
+
+@media (max-width: 1060px){
+    body {
+        margin-top: 165px;
+    }
+}
+
+@media (max-width: 700px){
+    body {
+        margin-top: 100px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+.title_name {
+    text-align: center;
+    font-family: 'Century Gothic';
+    font-size: 32px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+
+
+/*Главная*/
+.main_text_container {
+    font-family: 'Century Gothic';
+    margin: 100px 20% 0 20%;
+    text-align: justify;
+}
+@media(max-width: 1000px) {
+    .main_text_container {
+        margin: 80px 10% 0 10%;
+    }
+}
+@media(max-width: 400px) {
+    .main_text_container {
+        margin: 80px 10px 0 10px;
+    }
+}
+.main_text {
+    margin-bottom: 20px;
+    line-height: 1.5;
+    font-size: 18px;
+}
+.main_list {
+	text-align: left;
+    margin-left: 0;
+    margin-top: 40px;
+    font-size: 19px;
+}
+.main_list li {
+    line-height: 2;
+    padding-left: 25px;
+    display: block;
+    margin-top: 10px;
+    font-size: 18px;
+    border-left: 6px solid #a85555;
+}
+/*!Главная*/
+
+
+/*Мастер-класс*/
+.masterclass_container {
+    margin: 100px 20% 0 20%;
+}
+.masterclass_name {
+	font-family: 'Century Gothic';
+	text-align: center;
+    font-size: 25px;
+    margin-bottom: 35px;
+}
+.masterclass_past {
+	font-family: 'Century Gothic';
+	text-align: center;
+    font-size: 28px;
+    margin: 100px 0px -50px 0px;
+}
+.masterclass_list {
+	font-family: 'Century Gothic';
+	text-align: left;
+    margin-left: 0;
+    margin-top: 40px;
+    font-size: 19px;
+}
+.masterclass_list li {
+    line-height: 2;
+    padding-left: 25px;
+    display: block;
+    margin-top: 10px;
+    font-size: 18px;
+    border-left: 6px solid #516ab0;
+}
+.masterclass_text {
+	font-family: 'Century Gothic';
+	margin-bottom: 20px;
+    line-height: 1.5;
+    text-align: justify;
+    font-size: 18px;
+}
+.masterclass_img {
+    width: 31%;
+    position: relative;
+    z-index: 0;
+    margin-bottom: 20px;
+}
+@media(max-width:1000px) {
+	.masterclass_container {
+		margin: 80px 10% 0 10%;
+	}
+}
+@media(max-width:580px) {
+	.masterclass_container {
+		margin: 80px 10px 0 10px;
+	}
+}
+@media(max-width:400px) {
+	.masterclass_img {
+    width: 100%;
+	}
+}
+/*!Мастер-класс*/
+
+
+/*Прайс-лист*/
+.pricelist_content {
+    margin: 50px 10% 100px 10%;
+}
+.pricelist_container{
+    margin-bottom: 50px;
+    border-top: 100px solid transparent;
+    margin-top: -100px;
+    padding: 15px; /* можно использовать пэддинги */
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+}
+.pricelist_name{
+    font-family: 'Century Gothic';
+    text-align: center;
+    font-size: 24px;
+}
+.pricelist_img{
+    float: left;
+    height: 100px;
+    margin-right: 10px;
+}
+.pricelist_info{
+    font-family: 'Century Gothic';
+    font-size: 14px;
+
+}
+/*!Прайс-лист*/
+
+/*Контакты*/
+.icon_insta {
+    width: 30px;
+    margin: 10px 0 0 60px;
+    float: left;
+    border-radius: 4px;
+}
+.icon_facebook {
+    width: 30px;
+    margin: 10px 0 0 30px;
+    float: left;
+    border-radius: 4px;
+}
+.icon_livemaster {
+    width: 30px;
+    margin: 10px 0 0 30px;
+    float: left;
+    border-radius: 4px;
+}
+.contacts_text1 {
+    text-align: center;
+    font-family: 'Century Gothic';
+    font-size: 21px;
+    margin-bottom: 30px;
+}
+.contacts_text2 {
+    text-align: center;
+    font-family: 'Century Gothic';
+    font-size: 21px;
+    margin-bottom: 50px;
+}
+.contacts_location {
+    font-family: 'Century Gothic';
+    font-size: 18px;
+    margin: 130px 0 0 58px;
+}
+.contacts_phone {
+    font-family: 'Century Gothic';
+    font-size: 18px;
+    margin: 30px 0 0 58px;
+}
+.contacts_mail {
+    font-family: 'Century Gothic';
+    font-size: 18px;
+    margin: 30px 0 0 58px;
+}
+.contacts_list {
+    color: #a85555;
+    font-family: 'Century Gothic';
+    margin: 40px 0 40px 58px;
+    font-size: 24px;
+}
+.contacts_list li {
+    color: #000;
+    line-height: 2;
+    padding-left: 25px;
+    display: block;
+    margin-top: 10px;
+    font-size: 20px;
+    border-left: 6px solid #c47d7d;
+}
+@media(max-width:400px) {
+    .contacts_list {
+        margin: 40px 0 40px 10px;
+    }
+}
+@media(max-width:380px) {
+    .contacts_location {
+        margin-left: 10px;
+    }
+    .contacts_phone {
+        margin-left: 10px;
+    }
+    .contacts_mail {
+        margin-left: 10px;
+    }
+    .icon_insta {
+        margin-left: 10px;
+    }
+
+}
+
+.contacts_form {
+    position: relative;
+    left: 900px;
+    bottom: 430px;
+    max-width: 500px;
+    margin-bottom: -400px;
+}
+@media(max-width:1500px) {
+    .contacts_form {
+        left:800px;
+    }
+}
+@media(max-width:1350px) {
+    .contacts_form {
+        left:750px;
+    }
+}
+@media(max-width:1300px) {
+    .contacts_form {
+        left:700px;
+    }
+}
+@media(max-width:1200px) {
+    .contacts_form {
+        top: 50px;
+        left: 55px;
+        margin-bottom: 50px;
+    }
+}
+@media(max-width:600px) {
+    .contacts_form {
+        left:0px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media(max-width:500px) {
+    .contacts_form {
+        left:0px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+.contacts_form_name {
+    width: 100%;
+    font-size: 16px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-color: #c47d7d;
+    border-width: 1px;
+    border-radius: 0px;
+    font-family: 'Century Gothic';
+}
+.contacts_form_email {
+    font-size: 16px;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-width: 1px;
+    border-radius: 0px;
+    border-color: #c47d7d;
+    font-family: 'Century Gothic';
+}
+.contacts_form_message {
+    font-size: 16px;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-width: 1px;
+    border-color: #c47d7d;
+    border-radius: 0px;
+    font-family: 'Century Gothic';
+}
+.form_name {
+    margin-bottom: 5px;
+    font-family: 'Century Gothic';
+}
+.form_email {
+    margin-bottom: 5px;
+    font-family: 'Century Gothic';
+}
+.form_message {
+    margin-bottom: -19px;
+    font-family: 'Century Gothic';
+}
+.contacts_form_submit {
+    background-color: #c47d7d;
+    border: none;
+    padding: 10px 20px 10px 20px;
+    height: 50px;
+    cursor: pointer;
+    font-family: 'Century Gothic';
+    font-size: 14px;
+}
+.contacts_form_submit:hover {
+    background-color: #d2a3a3;
+}
+.form_answer {
+    font-family: 'Century Gothic';
+    position: relative;
+    left: 900px;
+    max-width: 500px;
+}
+@media(max-width:1500px) {
+    .form_answer {
+        left: 800px;
+    }
+}
+@media(max-width:1350px) {
+    .form_answer {
+        left: 750px;
+    }
+}
+@media(max-width:1300px) {
+    .form_answer {
+        left: 700px;
+    }
+}
+@media(max-width:1200px) {
+    .form_answer {
+        top: 50px;
+        left: 55px;
+        margin-top: -30px;
+        margin-bottom: 30px;
+    }
+}
+@media(max-width:600px) {
+    .form_answer {
+        left: 10px;
+    }
+}
+
+
+
+/*!Контакты*/
+
+/*Выставки*/
+.name_exhibitions {
+    font-family: 'Century Gothic';
+    font-size: 22px;
+    margin: 50px 20% 30px 20%;
+}
+.list_exhibitions {
+    font-family: 'Century Gothic';
+    font-size: 16px;
+    margin: 20px 20% 0 20%;
+}
+@media(max-width:800px) {
+    .list_exhibitions {
+        margin: 20px 10% 0 10%;
+    }
+    .name_exhibitions {
+        margin: 50px 10% 30px 10%;
+    }
+}
+@media(max-width:400px) {
+    .list_exhibitions {
+        margin: 20px 10px 0 10px;
+    }
+    .name_exhibitions {
+        margin: 50px 10px 30px 10px;
+    }
+}
+
+
+/*!Выставки*/
+
+/*Обо мне*/
+.about_me {
+    width: 700px;
+    margin: 0 auto 50px auto;
+}
+.about_me_text {
+    font-family: 'Century Gothic';
+    font-size: 18px;
+    margin-top: 15px;
+    line-height: 1.5;
+    text-align: justify;
+}
+.about_me_photo {
+    width: 200px;
+    margin: 10px;
+    position: relative;
+    left: 6px;
+    bottom: 10px;
+    float: right;
+    z-index: 0;
+}
+@media(max-width:710px) {
+    .about_me {
+        width: 90%;
+    }
+    .about_me_text {
+        font-size: 16px;
+        margin-top: 10px;
+    }
+}
+@media(max-width:420px) {
+    .about_me_photo {
+        width: 100%;
+  }
+}
+/*!Обо мне*/
+
+/*Страница работы*/
+.backbutton {
+    font-size: 16px;
+    font-family: 'Century Gothic';
+    color: #616161;
+    border: none;
+    position: relative;
+    margin: 0 0 30px 20px;
+    z-index:990;
+    background: none;
+}
+.backbutton a {
+    color: #c45757;
+}
+.backbutton a:hover {
+    color: #5c5ab6;
+}
+@media(max-width:400px){
+	.backbutton {
+		margin: 20px 0 20px 20px;
+	}
+}
+.href_to_pricelist:link {
+    color: #5c5ab6;
+}
+.href_to_pricelist:visited {
+    color: #5c5ab6;
+}
+.href_to_pricelist:hover {
+    color: #c45757;
+}
+h2 {
+    margin: 20px 10% 0 10%;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: 'Century Gothic';
+    color: #4c4c4c;
+
+}
+@media (max-width: 700px){
+    h2 {
+        margin: 20px 10px 0 10px;
+    }
+}
+.forsale {
+    margin: -50px 0 20px 90%;
+    /*position: absolute;*/
+    /*right: 50px;*/
+    font-weight: 500;
+    font-size: 16px;
+    font-family: 'Century Gothic';
+    color: #4c4c4c;
+
+}
+@media (max-width: 1000px){
+    .forsale {
+        margin: -55px 10px 20px 80%;
+    }
+}
+@media (max-width: 450px){
+    .forsale {
+        margin: -45px 10px 20px 70%;
+    }
+}
+@media (max-width: 310px){
+    .forsale {
+        margin: -45px 10px 20px 60%;
+    }
+}
+/*!Страница работы*/
+
+/*Галерея*/
+
+.gallery_img_triptych {
+	height: 300px;
+    margin: 5px;
+}
+@media(max-width:641px) {
+	.gallery_img_triptych {
+		-webkit-transform: rotate(90deg);
+		-moz-transform: rotate(90deg);
+		-ms-transform: rotate(90deg);
+		-o-transform: rotate(90deg);
+		transform: rotate(90deg);
+	}
+	
+}
+.gallery_img {
+    height: 300px;
+    margin: 5px;
+}
+@media(max-width:420px) {
+	.gallery_img {
+		width: calc(100% - 20px);
+		height: auto;
+	}
+	.gallery_img_triptych {
+		width: calc(100% - 20px);
+		height: auto;
+	}
+}
+.gallery_container {
+    text-align: center;
+}
+/*!Галерея*/
+
+/*Портфолио*/
+.portfolio_container {
+    text-align: center;
+    background: #fff;
+    margin: 0 auto;
+}
+.portfolio_img {
+    width: 100%;
+}
+.portfolio_name {
+    margin: 10px 0 30px 0;
+    font:25px Century Gothic;
+    font-weight: 500;
+    text-decoration: none;
+    color: #000;
+    text-align: center;
+}
+.portfolio_container a{
+    max-width: 300px;
+    display: inline-block;
+    margin: 0 5% 0 5%;
+    text-decoration: none;
+}
+/*!Портфолио*/
+
+/*Футер*/
+.footer {
+    height: auto;
+    background: rgba(0, 0, 0, 0.75);
+    color: #fff;
+    width: 100%;
+    margin-top: 50px;
+}
+.footer_icon_insta {
+    width: 30px;
+    margin-top: 40px;
+    margin-right: 50px;
+    float: right;
+    border-radius: 4px;
+}
+.footer_icon_facebook {
+    width: 30px;
+    margin-top: 40px;
+    margin-right: 20px;
+    float: right;
+    border-radius: 4px;
+}
+.footer_icon_livemaster {
+    width: 30px;
+    margin-top: 40px;
+    margin-right: 20px;
+    float: right;
+    border-radius: 4px;
+}
+.footer_menu {
+    list-style: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 10px 0 0 50px;
+    width: 25%;
+    display:inline-block;
+    vertical-align:top;
+}
+@media (max-width:600px) {
+	.footer_menu {
+		margin: 10px 0 0 10px;
+	}
+}
+@media (max-width:400px) {
+	.footer_menu {
+		width:100%;
+	}
+}
+
+.footer_menu li {
+    line-height: 1.5em;
+}
+.footer_menu a {
+    font-size: 14px;
+    text-decoration: none;
+    display: block;
+    font-family: 'Century Gothic', sans-serif;
+    color: #ddd;
+}
+.footer_menu a:hover {color: #000;}
+.footer_menu p {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    font-family: 'Century Gothic', sans-serif;
+    color: #ddd;
+}
+.footer_menu ul {
+    margin: 0px 0 0px 25px;
+    padding: 0;
+    border: none;
+    list-style: none;
+
+}
+.footer_logo {
+    text-align: center;
+    padding-bottom: 10px;
+    color: #aaa;
+    font-size: 15px;
+    font-family: 'Century Gothic';
+}
+.footer_created {
+    text-align: center;
+    padding-bottom: 20px;
+    color: #aaa;
+    font-size: 12px;
+    font-family: 'Century Gothic';
+}
+/*!Футер*/
+
+
+@font-face {
+font-family: 'Century Gothic'; 
+src: url("/style/century.ttf") format("truetype"); 
+font-style: normal; 
+font-weight: normal; 
+} 
