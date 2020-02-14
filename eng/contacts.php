@@ -6,14 +6,6 @@
         <link href="/style/css/mainstyle.css" rel="stylesheet" type="text/css" media="screen">
         <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155119253-1"></script>
-<script src="https://www.google.com/recaptcha/api.js?render=6LeSpdEUAAAAAKJa8d_o0mm7HZ2Os7g4rJiqBVVZ"></script>
-<script>
-grecaptcha.ready(function() {
-    grecaptcha.execute('6LeSpdEUAAAAAKJa8d_o0mm7HZ2Os7g4rJiqBVVZ', {action: 'homepage'}).then(function(token) {
-       ...
-    });
-});
-</script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}

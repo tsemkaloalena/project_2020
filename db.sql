@@ -1,9 +1,9 @@
-﻿-- phpMyAdmin SQL Dump
+-- phpMyAdmin SQL Dump
 -- version 4.9.1
 -- https://www.phpmyadmin.net/
 --
 -- Хост: localhost
--- Время создания: Янв 23 2020 г., 22:14
+-- Время создания: Фев 14 2020 г., 23:24
 -- Версия сервера: 5.6.39-83.1
 -- Версия PHP: 5.6.40
 
