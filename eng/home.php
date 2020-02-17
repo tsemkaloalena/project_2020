@@ -1,22 +1,10 @@
 <html>
     <head>
-        <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
-        <title><?php include($_SERVER['DOCUMENT_ROOT'] . '/eng/titlename.php') ?></title>
-        <?php include($_SERVER['DOCUMENT_ROOT'] . '/icons.php') ?>
         <link href="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.3.2/css/bootstrap.min.css" rel="stylesheet">
-        <link href="/style/css/mainstyle.css" rel="stylesheet" type="text/css">
+        <?php include($_SERVER['DOCUMENT_ROOT'] . '/eng/for_head.php') ?>
         <link href="/style/css/maingallery.css" rel="stylesheet">
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script src="/style/js/jquery.scrollbox.js"></script>
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-155119253-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-155119253-1');
-</script>
 
     </head>
     <body>

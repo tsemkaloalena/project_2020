@@ -1,20 +1,7 @@
 
 <html>
     <head>
-        <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
-        <title><?php include($_SERVER['DOCUMENT_ROOT'] . '/rus/titlename.php') ?></title>
-        <?php include($_SERVER['DOCUMENT_ROOT'] . '/icons.php') ?>
-        <link href="/style/css/mainstyle.css" rel="stylesheet" type="text/css" media="screen">
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-155119253-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-155119253-1');
-</script>
-
+		<?php include($_SERVER['DOCUMENT_ROOT'] . '/rus/for_head.php') ?>
     </head>
 
     <body>
@@ -31,7 +18,6 @@
                     while ($row = mysqli_fetch_array($query)) {
                         if ($row['type'] == 'other') {
                             ?> 
-
                             <a href="/rus/artwork.php?id=<?php echo $row['id'] ?>"><img class="gallery_img" src=<?php include($_SERVER['DOCUMENT_ROOT'] . '/connect_img.php') ?><?php echo $row['img1'] ?>></a>
                             <?php
                         }

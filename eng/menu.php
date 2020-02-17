@@ -1,4 +1,4 @@
-﻿<link href="/style/css/menustyle.css" rel="stylesheet" type="text/css" media="screen">
+<link href="/style/css/menustyle.css" rel="stylesheet" type="text/css" media="screen">
 ﻿<link href="https://fonts.googleapis.com/css?family=Poiret+One&display=swap" rel="stylesheet"> 
 <?php if ((isset($page)) and ($page == 'home')) { ?>
 	<h1 class="logo" style="visibility: visible">Elena Kirillova</h1>
@@ -59,8 +59,21 @@
 </nav>
 <table class="menu_language_eng_version">
     <tr>
-        <td style="padding-right: 20px;"><a href="/rus/home.php">RUS</a></td>
-        <td><a href="/eng/home.php">ENG</a></td>
+    	<?php
+		$path = $_SERVER['REQUEST_URI'];
+		$path = explode("/", $path);
+
+		$new_eng_path = implode("/", array_merge(array("eng"), array_slice($path, 2)));
+		$new_eng_path = "" . "/" . $new_eng_path;
+
+		$new_rus_path = implode("/", array_merge(array("rus"), array_slice($path, 2)));
+		$new_rus_path = "" . "/" . $new_rus_path;
+		?>
+
+		<td style="padding-right: 20px;"><a href="<?php echo $new_rus_path ?>">RUS</a></td>
+        <td><a href="<?php echo $new_eng_path ?>">ENG</a></td>
+        <!--<td style="padding-right: 20px;"><a href="/rus/home.php">RUS</a></td>-->
+        <!--<td><a href="/eng/home.php">ENG</a></td>-->
     </tr>
 </table>
 </div>

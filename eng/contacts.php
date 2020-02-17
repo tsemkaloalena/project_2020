@@ -1,19 +1,6 @@
 <html>
     <head>
-        <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
-        <title><?php include($_SERVER['DOCUMENT_ROOT'] . '/eng/titlename.php') ?></title>
-        <?php include($_SERVER['DOCUMENT_ROOT'] . '/icons.php') ?>
-        <link href="/style/css/mainstyle.css" rel="stylesheet" type="text/css" media="screen">
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-155119253-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-155119253-1');
-</script>
-
+        <?php include($_SERVER['DOCUMENT_ROOT'] . '/eng/for_head.php') ?>
     </head>
 
     <body>
@@ -34,7 +21,9 @@
 
                 <a href="https://www.instagram.com/elena_smalta/" target="_blank" ><img src="/style/images/instagram.png" class="icon_insta"></a>
                 <a href="https://www.facebook.com/people/Elena-Kirillova/100019066620807" target="_blank" ><img src="/style/images/facebook.png" class="icon_facebook"></a>
-                <a href="https://www.saatchiart.com/account/profile/1262063" target="_blank" ><img src="/style/images/saatchi.png" class="icon_livemaster"></a>
+                <a href="https://www.saatchiart.com/account/profile/1262063" target="_blank" ><img src="/style/images/saatchi.png" class="icon_saatchiart"></a>
+                <a href="https://www.singulart.com/en/artist/elena-kirillova-9887?campaign_id=1049" target="_blank" ><img src="/style/images/singulart.png" class="icon_singulart"></a>
+                <a href="https://www.artmajeur.com/lenasicilia" target="_blank" ><img src="/style/images/artmajeur.png" class="icon_artmajeur"></a>
 				<p class="contacts_location">Moscow, Russia</p>
                 <p class="contacts_phone">Phone: +7-916-683-00-35</p>
                 <p class="contacts_mail">E-mail: kirillovamosaico@gmail.com</p>

@@ -1,7 +1,10 @@
 <div class="footer">
     <a href="https://www.instagram.com/elena_smalta/" target="_blank" ><img src="/style/images/instagram.png" class="footer_icon_insta"></a>
     <a href="https://www.facebook.com/people/Elena-Kirillova/100019066620807" target="_blank" ><img src="/style/images/facebook.png" class="footer_icon_facebook"></a>
-    <a href="https://www.saatchiart.com/account/profile/1262063" target="_blank" ><img src="/style/images/saatchi.png" class="footer_icon_livemaster"></a>
+    <a href="https://www.saatchiart.com/account/profile/1262063" target="_blank" ><img src="/style/images/saatchi.png" class="footer_icon_saatchiart"></a>
+    <a href="https://www.singulart.com/en/artist/elena-kirillova-9887?campaign_id=1049" target="_blank" ><img src="/style/images/singulart.png" class="footer_icon_singulart"></a>
+    <a href="https://www.artmajeur.com/lenasicilia" target="_blank" ><img src="/style/images/artmajeur.png" class="footer_icon_artmajeur"></a>
+  
     <ul class="footer_menu">
         <p>Menu:</p>
         <li><a href="/eng/home.php">Home</a></li>
