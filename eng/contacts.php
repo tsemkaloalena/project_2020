@@ -1,6 +1,14 @@
 <html>
     <head>
         <?php include($_SERVER['DOCUMENT_ROOT'] . '/eng/for_head.php') ?>
+        <script src="https://www.google.com/recaptcha/api.js?render=6LeSpdEUAAAAAKJa8d_o0mm7HZ2Os7g4rJiqBVVZ"></script>
+        <script>
+            grecaptcha.ready(function() {
+            grecaptcha.execute('6LeSpdEUAAAAAKJa8d_o0mm7HZ2Os7g4rJiqBVVZ', {action: 'homepage'}).then(function(token) {
+                ...
+            });
+        });
+        </script>
     </head>
 
     <body>
