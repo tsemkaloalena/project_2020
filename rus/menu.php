@@ -71,7 +71,14 @@
 
 		$new_rus_path = implode("/", array_merge(array("rus"), array_slice($path, 2)));
 		$new_rus_path = "" . "/" . $new_rus_path;
-		?>
+		if ($new_eng_path == "/eng") {
+                    $new_eng_path = "/eng/home.php";
+                }
+                if ($new_rus_path == "/rus") {
+                    $new_rus_path = "/rus/home.php";
+                }
+
+?>
 
 		<td style="padding-right: 20px;"><a href="<?php echo $new_rus_path ?>">RUS</a></td>
         <td><a href="<?php echo $new_eng_path ?>">ENG</a></td>
